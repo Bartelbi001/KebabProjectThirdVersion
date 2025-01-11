@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KebabProjectV3.API", "KebabProjectV3\KebabProjectV3.API.csproj", "{B8A24B22-9DD7-4C51-8AD2-61E904E8D0CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E73A83C-24EC-409A-9BC4-DE04FFAA70A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{22BC89A6-2604-411E-A28A-6F148FF16FC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KebabProjectV3.Infrastructure", "KebabProjectV3.Infrastructure\KebabProjectV3.Infrastructure.csproj", "{4007744E-0318-45E3-A754-B1F89A446B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KebabProjectV3.Application", "KebabProjectV3.Application\KebabProjectV3.Application.csproj", "{826D3432-7B99-4CB0-B983-3887B421BFBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KebabProjectV3.Domain", "KebabProjectV3.Domain\KebabProjectV3.Domain.csproj", "{7D452D4C-B980-403C-810E-C8BDE183F44E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,11 +25,26 @@ Global
 		{B8A24B22-9DD7-4C51-8AD2-61E904E8D0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A24B22-9DD7-4C51-8AD2-61E904E8D0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A24B22-9DD7-4C51-8AD2-61E904E8D0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4007744E-0318-45E3-A754-B1F89A446B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4007744E-0318-45E3-A754-B1F89A446B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4007744E-0318-45E3-A754-B1F89A446B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4007744E-0318-45E3-A754-B1F89A446B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826D3432-7B99-4CB0-B983-3887B421BFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826D3432-7B99-4CB0-B983-3887B421BFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826D3432-7B99-4CB0-B983-3887B421BFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826D3432-7B99-4CB0-B983-3887B421BFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D452D4C-B980-403C-810E-C8BDE183F44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D452D4C-B980-403C-810E-C8BDE183F44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D452D4C-B980-403C-810E-C8BDE183F44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D452D4C-B980-403C-810E-C8BDE183F44E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B8A24B22-9DD7-4C51-8AD2-61E904E8D0CA} = {0E73A83C-24EC-409A-9BC4-DE04FFAA70A2}
+		{4007744E-0318-45E3-A754-B1F89A446B86} = {0E73A83C-24EC-409A-9BC4-DE04FFAA70A2}
+		{826D3432-7B99-4CB0-B983-3887B421BFBB} = {0E73A83C-24EC-409A-9BC4-DE04FFAA70A2}
+		{7D452D4C-B980-403C-810E-C8BDE183F44E} = {0E73A83C-24EC-409A-9BC4-DE04FFAA70A2}
 	EndGlobalSection
 EndGlobal
