@@ -2,4 +2,5 @@
 
 public class BaseIngredientModel
 {
+    public Guid Id { get; }
 }
