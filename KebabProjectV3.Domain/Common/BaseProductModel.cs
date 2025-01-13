@@ -10,4 +10,5 @@ public abstract class BaseProductModel
     public decimal Price { get; set; }
     public bool IsAvailable { get; set; }
     public Image? TitleImage { get; set; }
+    public int Weight { get; set; }
 }
